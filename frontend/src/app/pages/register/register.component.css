@@ -1,0 +1,55 @@
+.register-container {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.1);
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: 600;
+}
+
+.register-container label {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.register-container input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.register-container button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #00a86b;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-container button:hover {
+  background: #008455;
+}
+
+.register-container .login-link {
+  margin-top: 12px;
+  text-align: center;
+  display: block;
+  color: #0077ff;
+  cursor: pointer;
+}

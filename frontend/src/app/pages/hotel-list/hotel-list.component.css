@@ -1,0 +1,48 @@
+.hotel-list {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.hotel-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hotel-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.hotel-card h3 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.hotel-card p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.hotel-card button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background: #00a86b;
+  color: white;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.hotel-card button:hover {
+  background: #008455;
+}
