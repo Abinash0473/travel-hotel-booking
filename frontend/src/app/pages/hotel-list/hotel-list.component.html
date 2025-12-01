@@ -1,0 +1,10 @@
+<h2>Available Hotels</h2>
+<div class="hotel-container">
+  <div *ngFor="let h of (hotels$ | async)" class="hotel-card">
+    <img [src]="h.image" alt="{{ h.name }}" width="200" height="120" />
+    <h3>{{ h.name }}</h3>
+    <p>{{ h.location }}</p>
+    <p>₹{{ h.price }}</p>
+    <button [routerLink]="['/book', h._id]">Book Now</button>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<nav class="navbar">
+  <div class="logo" routerLink="/hotels">Travel Booking</div>
+  <div class="nav-links">
+    <a routerLink="/hotels">Hotels</a>
+    <a routerLink="/login" *ngIf="!loggedIn">Login</a>
+    <a routerLink="/register" *ngIf="!loggedIn">Register</a>
+    <button *ngIf="loggedIn" (click)="logout()">Logout</button>
+  </div>
+</nav>
+<hr />

@@ -1,0 +1,14 @@
+<h2>Book Hotel</h2>
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label>Check-In Date:</label>
+    <input type="date" [(ngModel)]="checkIn" name="checkIn" />
+  </div>
+  <div>
+    <label>Check-Out Date:</label>
+    <input type="date" [(ngModel)]="checkOut" name="checkOut" />
+  </div>
+  <button type="submit">Confirm Booking</button>
+  <div *ngIf="message" style="color:green;">{{ message }}</div>
+  <div *ngIf="error" style="color:red;">{{ error }}</div>
+</form>
