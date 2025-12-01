@@ -1,0 +1,21 @@
+# ===== node modules =====
+backend/node_modules/
+frontend/node_modules/
+
+# ===== environment files =====
+backend/.env
+frontend/.env
+
+# ===== dist builds =====
+backend/dist/
+frontend/dist/
+
+# ===== Angular cache =====
+frontend/.angular/
+
+# ===== logs =====
+*.log
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
